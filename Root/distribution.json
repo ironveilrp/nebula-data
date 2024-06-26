@@ -1,0 +1,2258 @@
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "IronveilRP-1.20.4",
+      "name": "Ironveil RP (Minecraft 1.20.4)",
+      "description": "Ironveil RP on Minecraft 1.20.4",
+      "icon": "https://launcher.ironveilrp.com/icon.png",
+      "version": "1.0.0",
+      "address": "play.ironveilrp.com",
+      "minecraftVersion": "1.20.4",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327662,
+            "MD5": "582b8c44a8afc761c63df88b64e6bb0f",
+            "url": "https://launcher.ironveilrp.com/repo/lib/net/fabricmc/fabric-loader/0.15.10/fabric-loader-0.15.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "1a8555f6ed5e18ae87b2dcb69079d0ca",
+                "url": "https://launcher.ironveilrp.com/repo/versions/1.20.4-fabric-0.15.10/1.20.4-fabric-0.15.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://launcher.ironveilrp.com/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://launcher.ironveilrp.com/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://launcher.ironveilrp.com/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://launcher.ironveilrp.com/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://launcher.ironveilrp.com/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://launcher.ironveilrp.com/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://launcher.ironveilrp.com/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.illusivesoulworks:cherishedworlds:8.0.1+1.20.4@jar",
+          "name": "Cherished Worlds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 59846,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/cherishedworlds-fabric-8.0.1+1.20.4.jar",
+            "MD5": "0647f6b577ead7baf2557fbe4d1cb6b5"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1142084,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
+            "MD5": "3903e7d3c9957bacedae1365ba856202"
+          }
+        },
+        {
+          "id": "net.kyrptonaught:cmdkeybind:1.6.3-1.20.4@jar",
+          "name": "Command Macros",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 425981,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/cmdkeybind-1.6.3-1.20.4.jar",
+            "MD5": "53c2c34b7b12a817c7816ca388081ab9"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009401,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/continuity-3.0.0-beta.5+1.20.2.jar",
+            "MD5": "2b62a19992d9e8cbbe6f2830074cfee3"
+          }
+        },
+        {
+          "id": "com.hypherionmc:craterlib:2.0.0@jar",
+          "name": "CraterLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1745225,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/CraterLib-Fabric-1.20.4-2.0.0.jar",
+            "MD5": "19ae471533dbc76b6b55a244f43c6e79"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 387883,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/entity_model_features_fabric_1.20.4-2.0.2.jar",
+            "MD5": "e7cb2558004a2f95768f18bbbab0a41a"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.1@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600899,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/entity_texture_features_fabric_1.20.4-6.1.jar",
+            "MD5": "46a1b814e4791ac0216f2ddff78839f5"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.6@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66529,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/entityculling-fabric-1.6.6-mc1.20.4.jar",
+            "MD5": "34164c19e34666567a670ed55ae02d1a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.1+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187521,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/fabric-api-0.97.1+1.20.4.jar",
+            "MD5": "bf5ff86ed44c610094d334a37e3c4980"
+          }
+        },
+        {
+          "id": "org.figuramc:figura:0.1.4+1.20.4@jar",
+          "name": "Figura",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2307726,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/figura-0.1.4+1.20.4-fabric-mc.jar",
+            "MD5": "51e096f81df567419284ec11f22c6ae6"
+          }
+        },
+        {
+          "id": "freelook.freelook:freelook:1.1.5@jar",
+          "name": "Freelook",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 38897,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/freelook-1.1.5.jar",
+            "MD5": "7f09fea0ed97d3e4fa67a8657a8f610c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.2.18+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250364,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/ImmediatelyFast-Fabric-1.2.18+1.20.4.jar",
+            "MD5": "7530923c63a9696f7d18eb2bc37a6f98"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.1+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703833,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/iris-1.7.1+mc1.20.4.jar",
+            "MD5": "6a6fe8186f91cf476336219dba7f66f9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          }
+        },
+        {
+          "id": "com.logicalgeekboy:logical_zoom:0.0.22@jar",
+          "name": "Logical Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120012,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/logical_zoom-0.0.22.jar",
+            "MD5": "8c7a988528c1e0eba080f30e43a5cc5c"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65430,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/modelfix-1.14-fabric.jar",
+            "MD5": "37022aa425061707b0ed1ada2c071d97"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 458056,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "MD5": "c988c6a3371040def77a32f3741c9723"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:9.2.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 963019,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/modmenu-9.2.0.jar",
+            "MD5": "f8008ee81dd401a441bd20f41e43fca2"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272851,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
+            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          }
+        },
+        {
+          "id": "generated.fabricmod:norealmsbutton:1.0.1@jar",
+          "name": "NoRealmsButton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 43641,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/NoRealmsButton-1.0.1-fabric.jar",
+            "MD5": "d536fbedb43a9ecd00ddfa34057779b6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:toastkiller:1.0@jar",
+          "name": "The Open Sauce Toast Killer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8038,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/OpenSauceToastKiller.jar",
+            "MD5": "5b9ff9c7969225e1fb3f372486c6add9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.4.0-pre.1+1.20.4@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 230092,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/placeholder-api-2.4.0-pre.1+1.20.4.jar",
+            "MD5": "5199f598a749bcb195858f1256124fd3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.4-build.102@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77393,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "MD5": "3353347619cc18acb9b6ef811ac6a310"
+          }
+        },
+        {
+          "id": "me.hypherionmc.simplerpc.loaders:simplerpc:3.3.0@jar",
+          "name": "Simple RPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 214642,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/SimpleRPC-Universal-3.3.0.jar",
+            "MD5": "cb7a605b56a68b117169f02057233505"
+          }
+        },
+        {
+          "id": "smsk.smoothscroll:smoothscroll:2.1.2@jar",
+          "name": "Smooth Scroll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 50456,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/smoothscroll-2.1.2-1.20.4.jar",
+            "MD5": "5a276d5b83f25b1def9cf6cbe1bac29f"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "generated.fabricmod:tooltipfix:1.1.1-1.20@jar",
+          "name": "ToolTip Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12432,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/tooltipfix-1.1.1-1.20.jar",
+            "MD5": "492430f451d89f7fe2d7b8410c9748ac"
+          }
+        },
+        {
+          "id": "generated.fabricmod:viafabricplus:3.1.1@jar",
+          "name": "ViaFabricPlus",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10230129,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/ViaFabricPlus-3.1.1.jar",
+            "MD5": "215d21c68da9ac19e8f38114f4991ada"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.5.0+1.20.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1149707,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/YetAnotherConfigLib-3.5.0+1.20.4-fabric.jar",
+            "MD5": "c2dd490a516cb036e3ff30682e28df9f"
+          }
+        },
+        {
+          "id": "cherishedworlds-favorites.dat",
+          "name": "cherishedworlds-favorites.dat",
+          "type": "File",
+          "artifact": {
+            "size": 53,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/cherishedworlds-favorites.dat",
+            "path": "cherishedworlds-favorites.dat"
+          }
+        },
+        {
+          "id": "chatpatches.json",
+          "name": "chatpatches.json",
+          "type": "File",
+          "artifact": {
+            "size": 877,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/chatpatches.json",
+            "MD5": "006d1eae857e97e4013a0dcd8e0718d0",
+            "path": "config/chatpatches.json"
+          }
+        },
+        {
+          "id": "chat_heads.json5",
+          "name": "chat_heads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/chat_heads.json5",
+            "MD5": "ff6e0dc634336299e0022cdd5fee1242",
+            "path": "config/chat_heads.json5"
+          }
+        },
+        {
+          "id": "citresewn-defaults.json",
+          "name": "citresewn-defaults.json",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/citresewn-defaults.json",
+            "MD5": "bc5045a4380a10d3b83bedd196a37f28",
+            "path": "config/citresewn-defaults.json"
+          }
+        },
+        {
+          "id": "citresewn.json",
+          "name": "citresewn.json",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/citresewn.json",
+            "MD5": "5e14e5732224d035ec48cbfa73884f0b",
+            "path": "config/citresewn.json"
+          }
+        },
+        {
+          "id": "cmdkeybindconfig.json5",
+          "name": "cmdkeybindconfig.json5",
+          "type": "File",
+          "artifact": {
+            "size": 411,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/cmdkeybindconfig.json5",
+            "MD5": "7daf914ade469c6880eb83dd3a36a5fc",
+            "path": "config/cmdkeybindconfig.json5"
+          }
+        },
+        {
+          "id": "continuity.json",
+          "name": "continuity.json",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/continuity.json",
+            "MD5": "16114edbb9460c49373bb12561ddf7c3",
+            "path": "config/continuity.json"
+          }
+        },
+        {
+          "id": "cullleaves.json",
+          "name": "cullleaves.json",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/cullleaves.json",
+            "MD5": "727604a10633c683eb5b0b24985f2db2",
+            "path": "config/cullleaves.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 871,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/entityculling.json",
+            "MD5": "1e9496e07565504b4be879fde4cb01bd",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 662,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/entity_model_features.json",
+            "MD5": "1195b44cdb702ec93fad2edd155cb0ee",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1230,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/entity_texture_features.json",
+            "MD5": "51de1ee33a0610fe09f4af836f1cf7e3",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/fabric/indigo-renderer.properties",
+            "MD5": "fd7065b76405be7092d0523045afb238",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "figura.json",
+          "name": "figura.json",
+          "type": "File",
+          "artifact": {
+            "size": 25,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/figura.json",
+            "MD5": "dd61e3d09fb99762c9376df7208f0254",
+            "path": "config/figura.json"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1142,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/immediatelyfast.json",
+            "MD5": "5ea4769a2335dfad801d3d1b4883aadd",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "indium-renderer.properties",
+          "name": "indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/indium-renderer.properties",
+            "MD5": "a066221c0d8ce0842698c22a026afbe3",
+            "path": "config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 289,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/iris.properties",
+            "MD5": "28a1cedeb6f702cf26aec81bdcff2702",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "lithium.properties",
+          "name": "lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/lithium.properties",
+            "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
+            "path": "config/lithium.properties"
+          }
+        },
+        {
+          "id": "midnightlib.json",
+          "name": "midnightlib.json",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/midnightlib.json",
+            "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
+            "path": "config/midnightlib.json"
+          }
+        },
+        {
+          "id": "modelfix-client.json",
+          "name": "modelfix-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 206,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/modelfix-client.json",
+            "MD5": "bddb52111aa6b3b9fe5d30aba14d5f3a",
+            "path": "config/modelfix-client.json"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3422,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/modernfix-mixins.properties",
+            "MD5": "302a528d1b3446880da7b62d8b974571",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 814,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/modmenu.json",
+            "MD5": "e8f3869015601ad3afae3fa4412c307c",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "moreculling.toml",
+          "name": "moreculling.toml",
+          "type": "File",
+          "artifact": {
+            "size": 555,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/moreculling.toml",
+            "MD5": "5e109226d70c38b67f82942ab7205887",
+            "path": "config/moreculling.toml"
+          }
+        },
+        {
+          "id": "server-entries.toml",
+          "name": "server-entries.toml",
+          "type": "File",
+          "artifact": {
+            "size": 394,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/simple-rpc/server-entries.toml",
+            "MD5": "65145008641b01d7e8df8dc940fa8b0d",
+            "path": "config/simple-rpc/server-entries.toml"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9133,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/simple-rpc/simple-rpc.toml",
+            "MD5": "c2fad239bf6635df4a81be7a35b41e6f",
+            "path": "config/simple-rpc/simple-rpc.toml"
+          }
+        },
+        {
+          "id": "smoothscroll.json",
+          "name": "smoothscroll.json",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/smoothscroll.json",
+            "MD5": "7e40e8433eabc138d781c98fd4884118",
+            "path": "config/smoothscroll.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1727,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/sodium-extra-options.json",
+            "MD5": "1e80c4345a2c9f2f346e54a80ff8c8f2",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/sodium-fingerprint.json",
+            "MD5": "57d31e2bdff008e8bfb57518dfc42270",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/sodium-mixins.properties",
+            "MD5": "6f5f12de22f04364e57a623174cf1484",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 630,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/sodium-options.json",
+            "MD5": "9d7a29d1191d1b715b379873037b9b75",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "accounts.json",
+          "name": "accounts.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/accounts.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/viafabricplus/accounts.json"
+          }
+        },
+        {
+          "id": "settings.json",
+          "name": "settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 2168,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/settings.json",
+            "MD5": "172f0936e0b19ee9ccfd649e5a68ccfc",
+            "path": "config/viafabricplus/settings.json"
+          }
+        },
+        {
+          "id": "viaaprilfools.yml",
+          "name": "viaaprilfools.yml",
+          "type": "File",
+          "artifact": {
+            "size": 45,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viaaprilfools.yml",
+            "path": "config/viafabricplus/ViaLoader/viaaprilfools.yml"
+          }
+        },
+        {
+          "id": "viabackwards.yml",
+          "name": "viabackwards.yml",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabackwards.yml",
+            "path": "config/viafabricplus/ViaLoader/viabackwards.yml"
+          }
+        },
+        {
+          "id": "000005.sst",
+          "name": "000005.sst",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabedrock/blob_cache/000005.sst",
+            "MD5": "39c0b9a5d13e0abf641343c0b606cae0",
+            "path": "config/viafabricplus/ViaLoader/viabedrock/blob_cache/000005.sst"
+          }
+        },
+        {
+          "id": "000022.log",
+          "name": "000022.log",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabedrock/blob_cache/000022.log",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/viafabricplus/ViaLoader/viabedrock/blob_cache/000022.log"
+          }
+        },
+        {
+          "id": "CURRENT",
+          "name": "CURRENT",
+          "type": "File",
+          "artifact": {
+            "size": 16,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabedrock/blob_cache/CURRENT",
+            "MD5": "ebcd69498f83b8ae4375f81e15c103bf",
+            "path": "config/viafabricplus/ViaLoader/viabedrock/blob_cache/CURRENT"
+          }
+        },
+        {
+          "id": "LOCK",
+          "name": "LOCK",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabedrock/blob_cache/LOCK",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/viafabricplus/ViaLoader/viabedrock/blob_cache/LOCK"
+          }
+        },
+        {
+          "id": "MANIFEST-000021",
+          "name": "MANIFEST-000021",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabedrock/blob_cache/MANIFEST-000021",
+            "MD5": "b7dd45f66851dbe191b08370b00049fb",
+            "path": "config/viafabricplus/ViaLoader/viabedrock/blob_cache/MANIFEST-000021"
+          }
+        },
+        {
+          "id": "viabedrock.yml",
+          "name": "viabedrock.yml",
+          "type": "File",
+          "artifact": {
+            "size": 646,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viabedrock.yml",
+            "path": "config/viafabricplus/ViaLoader/viabedrock.yml"
+          }
+        },
+        {
+          "id": "vialegacy.yml",
+          "name": "vialegacy.yml",
+          "type": "File",
+          "artifact": {
+            "size": 861,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/vialegacy.yml",
+            "path": "config/viafabricplus/ViaLoader/vialegacy.yml"
+          }
+        },
+        {
+          "id": "viaversion.yml",
+          "name": "viaversion.yml",
+          "type": "File",
+          "artifact": {
+            "size": 7580,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viaversion.yml",
+            "path": "config/viafabricplus/ViaLoader/viaversion.yml"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "avatars.nbt",
+          "name": "avatars.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 38,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/avatars.nbt",
+            "MD5": "2026ae5bd27ded1b1c6625868c6fa80e",
+            "path": "figura/cache/avatars.nbt"
+          }
+        },
+        {
+          "id": "permissions.nbt",
+          "name": "permissions.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 131,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/permissions.nbt",
+            "MD5": "0650484f5010ac9c951afdf55d29d450",
+            "path": "figura/cache/permissions.nbt"
+          }
+        },
+        {
+          "id": "animal.json",
+          "name": "animal.json",
+          "type": "File",
+          "artifact": {
+            "size": 1569,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/animal.json",
+            "MD5": "3918c828be421bfb75531678a3fa1722",
+            "path": "figura/cache/resources/assets/figura/emojis/animal.json"
+          }
+        },
+        {
+          "id": "animated.json",
+          "name": "animated.json",
+          "type": "File",
+          "artifact": {
+            "size": 807,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/animated.json",
+            "MD5": "de02920ec25408e9f6479885f384d750",
+            "path": "figura/cache/resources/assets/figura/emojis/animated.json"
+          }
+        },
+        {
+          "id": "face_angry.json",
+          "name": "face_angry.json",
+          "type": "File",
+          "artifact": {
+            "size": 316,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_angry.json",
+            "MD5": "ab4d128460886ba648230bb76889d785",
+            "path": "figura/cache/resources/assets/figura/emojis/face_angry.json"
+          }
+        },
+        {
+          "id": "face_biba.json",
+          "name": "face_biba.json",
+          "type": "File",
+          "artifact": {
+            "size": 809,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_biba.json",
+            "MD5": "2e25e33329366a4633e03e74c66771fb",
+            "path": "figura/cache/resources/assets/figura/emojis/face_biba.json"
+          }
+        },
+        {
+          "id": "face_fear.json",
+          "name": "face_fear.json",
+          "type": "File",
+          "artifact": {
+            "size": 324,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_fear.json",
+            "MD5": "65d012e6545b8f413227db24cc5501be",
+            "path": "figura/cache/resources/assets/figura/emojis/face_fear.json"
+          }
+        },
+        {
+          "id": "face_happy.json",
+          "name": "face_happy.json",
+          "type": "File",
+          "artifact": {
+            "size": 798,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_happy.json",
+            "MD5": "8b3d9dc7ffd18a6d84b94897f7ed1df3",
+            "path": "figura/cache/resources/assets/figura/emojis/face_happy.json"
+          }
+        },
+        {
+          "id": "face_misc.json",
+          "name": "face_misc.json",
+          "type": "File",
+          "artifact": {
+            "size": 776,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_misc.json",
+            "MD5": "b5c35161e9919178a2ecab620a2f120c",
+            "path": "figura/cache/resources/assets/figura/emojis/face_misc.json"
+          }
+        },
+        {
+          "id": "face_nervous.json",
+          "name": "face_nervous.json",
+          "type": "File",
+          "artifact": {
+            "size": 1161,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_nervous.json",
+            "MD5": "996d62a51d9740d6cbb4a5266c84363e",
+            "path": "figura/cache/resources/assets/figura/emojis/face_nervous.json"
+          }
+        },
+        {
+          "id": "face_sad.json",
+          "name": "face_sad.json",
+          "type": "File",
+          "artifact": {
+            "size": 976,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_sad.json",
+            "MD5": "28dff6ef5a1214f422c6b30219e7440b",
+            "path": "figura/cache/resources/assets/figura/emojis/face_sad.json"
+          }
+        },
+        {
+          "id": "face_silly.json",
+          "name": "face_silly.json",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/face_silly.json",
+            "MD5": "f834976f7f131de116dc65daed6f694c",
+            "path": "figura/cache/resources/assets/figura/emojis/face_silly.json"
+          }
+        },
+        {
+          "id": "flag_a-d.json",
+          "name": "flag_a-d.json",
+          "type": "File",
+          "artifact": {
+            "size": 2571,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/flag_a-d.json",
+            "MD5": "cf2131d24e41f2e42099f8391bb6e557",
+            "path": "figura/cache/resources/assets/figura/emojis/flag_a-d.json"
+          }
+        },
+        {
+          "id": "flag_e-k.json",
+          "name": "flag_e-k.json",
+          "type": "File",
+          "artifact": {
+            "size": 2551,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/flag_e-k.json",
+            "MD5": "fa4127ded348330207794d998b35b3cc",
+            "path": "figura/cache/resources/assets/figura/emojis/flag_e-k.json"
+          }
+        },
+        {
+          "id": "flag_l-q.json",
+          "name": "flag_l-q.json",
+          "type": "File",
+          "artifact": {
+            "size": 2538,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/flag_l-q.json",
+            "MD5": "e5768206ac2174b118100489878dab1b",
+            "path": "figura/cache/resources/assets/figura/emojis/flag_l-q.json"
+          }
+        },
+        {
+          "id": "flag_r-z.json",
+          "name": "flag_r-z.json",
+          "type": "File",
+          "artifact": {
+            "size": 2669,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/flag_r-z.json",
+            "MD5": "6ae06670e540a8b04e78ecfed0b02e36",
+            "path": "figura/cache/resources/assets/figura/emojis/flag_r-z.json"
+          }
+        },
+        {
+          "id": "food.json",
+          "name": "food.json",
+          "type": "File",
+          "artifact": {
+            "size": 1116,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/food.json",
+            "MD5": "1fe7f74626a1211fa71fd2c14019df19",
+            "path": "figura/cache/resources/assets/figura/emojis/food.json"
+          }
+        },
+        {
+          "id": "gesture.json",
+          "name": "gesture.json",
+          "type": "File",
+          "artifact": {
+            "size": 553,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/gesture.json",
+            "MD5": "6b132741086a69476a81ca5e2edb594b",
+            "path": "figura/cache/resources/assets/figura/emojis/gesture.json"
+          }
+        },
+        {
+          "id": "heart.json",
+          "name": "heart.json",
+          "type": "File",
+          "artifact": {
+            "size": 1205,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/heart.json",
+            "MD5": "fc98d64f12660f4ef6b5f1397cb2b395",
+            "path": "figura/cache/resources/assets/figura/emojis/heart.json"
+          }
+        },
+        {
+          "id": "letters.json",
+          "name": "letters.json",
+          "type": "File",
+          "artifact": {
+            "size": 2015,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/letters.json",
+            "MD5": "5ed94768e5b9b569f48eff1197a9c2e4",
+            "path": "figura/cache/resources/assets/figura/emojis/letters.json"
+          }
+        },
+        {
+          "id": "logo.json",
+          "name": "logo.json",
+          "type": "File",
+          "artifact": {
+            "size": 850,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/logo.json",
+            "MD5": "bec65499e0a71dc90a59248ccbda48a8",
+            "path": "figura/cache/resources/assets/figura/emojis/logo.json"
+          }
+        },
+        {
+          "id": "meme.json",
+          "name": "meme.json",
+          "type": "File",
+          "artifact": {
+            "size": 511,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/meme.json",
+            "MD5": "26fd55fc37cb9429629203551bc3dbcc",
+            "path": "figura/cache/resources/assets/figura/emojis/meme.json"
+          }
+        },
+        {
+          "id": "misc.json",
+          "name": "misc.json",
+          "type": "File",
+          "artifact": {
+            "size": 378,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/misc.json",
+            "MD5": "89eacd88a3633309c249508908310b48",
+            "path": "figura/cache/resources/assets/figura/emojis/misc.json"
+          }
+        },
+        {
+          "id": "nature.json",
+          "name": "nature.json",
+          "type": "File",
+          "artifact": {
+            "size": 932,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/nature.json",
+            "MD5": "dac1f496b0676cb1dd133fe1805ef0b0",
+            "path": "figura/cache/resources/assets/figura/emojis/nature.json"
+          }
+        },
+        {
+          "id": "object.json",
+          "name": "object.json",
+          "type": "File",
+          "artifact": {
+            "size": 2472,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/object.json",
+            "MD5": "d726a16ba3825907ae1f44574b1fd5ec",
+            "path": "figura/cache/resources/assets/figura/emojis/object.json"
+          }
+        },
+        {
+          "id": "portrait.json",
+          "name": "portrait.json",
+          "type": "File",
+          "artifact": {
+            "size": 1393,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/portrait.json",
+            "MD5": "677e956f0c24732c547aa7722adba276",
+            "path": "figura/cache/resources/assets/figura/emojis/portrait.json"
+          }
+        },
+        {
+          "id": "pride.json",
+          "name": "pride.json",
+          "type": "File",
+          "artifact": {
+            "size": 1246,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/pride.json",
+            "MD5": "315cf4648e35437beb8cd010afc044e3",
+            "path": "figura/cache/resources/assets/figura/emojis/pride.json"
+          }
+        },
+        {
+          "id": "reference.json",
+          "name": "reference.json",
+          "type": "File",
+          "artifact": {
+            "size": 2049,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/reference.json",
+            "MD5": "f1651daab0e1b5fa38cff346a0f81369",
+            "path": "figura/cache/resources/assets/figura/emojis/reference.json"
+          }
+        },
+        {
+          "id": "reference_bloons.json",
+          "name": "reference_bloons.json",
+          "type": "File",
+          "artifact": {
+            "size": 832,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/reference_bloons.json",
+            "MD5": "5d22a4d5bc7d551acd3b52715ea5ae3f",
+            "path": "figura/cache/resources/assets/figura/emojis/reference_bloons.json"
+          }
+        },
+        {
+          "id": "reference_logo.json",
+          "name": "reference_logo.json",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/reference_logo.json",
+            "MD5": "cabd7a57303336ad210d11bba3685faf",
+            "path": "figura/cache/resources/assets/figura/emojis/reference_logo.json"
+          }
+        },
+        {
+          "id": "reference_retro.json",
+          "name": "reference_retro.json",
+          "type": "File",
+          "artifact": {
+            "size": 572,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/reference_retro.json",
+            "MD5": "f8f2afff7f68479ecb4992e48475a976",
+            "path": "figura/cache/resources/assets/figura/emojis/reference_retro.json"
+          }
+        },
+        {
+          "id": "symbol.json",
+          "name": "symbol.json",
+          "type": "File",
+          "artifact": {
+            "size": 3036,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/emojis/symbol.json",
+            "MD5": "359c22aaa494a8198b93a3bef935d726",
+            "path": "figura/cache/resources/assets/figura/emojis/symbol.json"
+          }
+        },
+        {
+          "id": "emoji_animal.json",
+          "name": "emoji_animal.json",
+          "type": "File",
+          "artifact": {
+            "size": 511,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_animal.json",
+            "MD5": "de92f9feb2493807dccfba51cf0a9bbd",
+            "path": "figura/cache/resources/assets/figura/font/emoji_animal.json"
+          }
+        },
+        {
+          "id": "emoji_animated.json",
+          "name": "emoji_animated.json",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_animated.json",
+            "MD5": "6c78d97a07259440f8def740fe6782ca",
+            "path": "figura/cache/resources/assets/figura/font/emoji_animated.json"
+          }
+        },
+        {
+          "id": "emoji_face_angry.json",
+          "name": "emoji_face_angry.json",
+          "type": "File",
+          "artifact": {
+            "size": 239,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_angry.json",
+            "MD5": "541d3dbe702ce41deb380fa979a5f7a3",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_angry.json"
+          }
+        },
+        {
+          "id": "emoji_face_biba.json",
+          "name": "emoji_face_biba.json",
+          "type": "File",
+          "artifact": {
+            "size": 334,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_biba.json",
+            "MD5": "3ad88e686bbb929c02887acf31af3b94",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_biba.json"
+          }
+        },
+        {
+          "id": "emoji_face_fear.json",
+          "name": "emoji_face_fear.json",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_fear.json",
+            "MD5": "d626967c19ddc3ef9827b1078d90d759",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_fear.json"
+          }
+        },
+        {
+          "id": "emoji_face_happy.json",
+          "name": "emoji_face_happy.json",
+          "type": "File",
+          "artifact": {
+            "size": 335,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_happy.json",
+            "MD5": "beea5ac82c7b1fe6226fc728bcf2cf2d",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_happy.json"
+          }
+        },
+        {
+          "id": "emoji_face_misc.json",
+          "name": "emoji_face_misc.json",
+          "type": "File",
+          "artifact": {
+            "size": 334,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_misc.json",
+            "MD5": "b3c278796a75d9fd4192e2a1b430e19b",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_misc.json"
+          }
+        },
+        {
+          "id": "emoji_face_nervous.json",
+          "name": "emoji_face_nervous.json",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_nervous.json",
+            "MD5": "7ac6ebfca4850e5c6ef84c8d6fde5ce5",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_nervous.json"
+          }
+        },
+        {
+          "id": "emoji_face_sad.json",
+          "name": "emoji_face_sad.json",
+          "type": "File",
+          "artifact": {
+            "size": 393,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_sad.json",
+            "MD5": "08ee2b518f829af7ee4d387cf09f6fa1",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_sad.json"
+          }
+        },
+        {
+          "id": "emoji_face_silly.json",
+          "name": "emoji_face_silly.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_face_silly.json",
+            "MD5": "7abe229afdd086f7ec0e38c3a4473037",
+            "path": "figura/cache/resources/assets/figura/font/emoji_face_silly.json"
+          }
+        },
+        {
+          "id": "emoji_flag_a-d.json",
+          "name": "emoji_flag_a-d.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_flag_a-d.json",
+            "MD5": "221f1fb2e9f98cb27533a4d8fc54909c",
+            "path": "figura/cache/resources/assets/figura/font/emoji_flag_a-d.json"
+          }
+        },
+        {
+          "id": "emoji_flag_e-k.json",
+          "name": "emoji_flag_e-k.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_flag_e-k.json",
+            "MD5": "37c5008e6347651cad76826e5cba4f9f",
+            "path": "figura/cache/resources/assets/figura/font/emoji_flag_e-k.json"
+          }
+        },
+        {
+          "id": "emoji_flag_l-q.json",
+          "name": "emoji_flag_l-q.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_flag_l-q.json",
+            "MD5": "14a0ac00c1fc5a7f0f071f6106b39989",
+            "path": "figura/cache/resources/assets/figura/font/emoji_flag_l-q.json"
+          }
+        },
+        {
+          "id": "emoji_flag_r-z.json",
+          "name": "emoji_flag_r-z.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_flag_r-z.json",
+            "MD5": "830e87c1b20d558367a6fb245710a362",
+            "path": "figura/cache/resources/assets/figura/font/emoji_flag_r-z.json"
+          }
+        },
+        {
+          "id": "emoji_food.json",
+          "name": "emoji_food.json",
+          "type": "File",
+          "artifact": {
+            "size": 403,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_food.json",
+            "MD5": "72c355fca6897d58c1ef466adedc7eb1",
+            "path": "figura/cache/resources/assets/figura/font/emoji_food.json"
+          }
+        },
+        {
+          "id": "emoji_gesture.json",
+          "name": "emoji_gesture.json",
+          "type": "File",
+          "artifact": {
+            "size": 296,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_gesture.json",
+            "MD5": "a8a3bd3a8b0be93a20ecc0c727be1c23",
+            "path": "figura/cache/resources/assets/figura/font/emoji_gesture.json"
+          }
+        },
+        {
+          "id": "emoji_heart.json",
+          "name": "emoji_heart.json",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_heart.json",
+            "MD5": "123cc31b24937b28572751da7dbff526",
+            "path": "figura/cache/resources/assets/figura/font/emoji_heart.json"
+          }
+        },
+        {
+          "id": "emoji_letters.json",
+          "name": "emoji_letters.json",
+          "type": "File",
+          "artifact": {
+            "size": 512,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_letters.json",
+            "MD5": "a61167890ed7a0065d8a25284224d891",
+            "path": "figura/cache/resources/assets/figura/font/emoji_letters.json"
+          }
+        },
+        {
+          "id": "emoji_logo.json",
+          "name": "emoji_logo.json",
+          "type": "File",
+          "artifact": {
+            "size": 401,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_logo.json",
+            "MD5": "2ba592ef92c083e7c57e6623f4efb1ad",
+            "path": "figura/cache/resources/assets/figura/font/emoji_logo.json"
+          }
+        },
+        {
+          "id": "emoji_meme.json",
+          "name": "emoji_meme.json",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_meme.json",
+            "MD5": "6106f2f5470b45d44c26b9010b318b83",
+            "path": "figura/cache/resources/assets/figura/font/emoji_meme.json"
+          }
+        },
+        {
+          "id": "emoji_misc.json",
+          "name": "emoji_misc.json",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_misc.json",
+            "MD5": "dbb6856ef0dd4f54ff822163c82fb682",
+            "path": "figura/cache/resources/assets/figura/font/emoji_misc.json"
+          }
+        },
+        {
+          "id": "emoji_nature.json",
+          "name": "emoji_nature.json",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_nature.json",
+            "MD5": "5e885cf4ef81aef4343b48ee0f4b7c7c",
+            "path": "figura/cache/resources/assets/figura/font/emoji_nature.json"
+          }
+        },
+        {
+          "id": "emoji_object.json",
+          "name": "emoji_object.json",
+          "type": "File",
+          "artifact": {
+            "size": 631,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_object.json",
+            "MD5": "6df63a5b28519ea2ec42d29f79da57e0",
+            "path": "figura/cache/resources/assets/figura/font/emoji_object.json"
+          }
+        },
+        {
+          "id": "emoji_portrait.json",
+          "name": "emoji_portrait.json",
+          "type": "File",
+          "artifact": {
+            "size": 453,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_portrait.json",
+            "MD5": "4f0206607980b558f50953afa456d68e",
+            "path": "figura/cache/resources/assets/figura/font/emoji_portrait.json"
+          }
+        },
+        {
+          "id": "emoji_pride.json",
+          "name": "emoji_pride.json",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_pride.json",
+            "MD5": "20163e93596415d55b98b51a9b7f03ba",
+            "path": "figura/cache/resources/assets/figura/font/emoji_pride.json"
+          }
+        },
+        {
+          "id": "emoji_reference.json",
+          "name": "emoji_reference.json",
+          "type": "File",
+          "artifact": {
+            "size": 574,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_reference.json",
+            "MD5": "269909f3f2c6e15ab0ea683236b8e24e",
+            "path": "figura/cache/resources/assets/figura/font/emoji_reference.json"
+          }
+        },
+        {
+          "id": "emoji_reference_bloons.json",
+          "name": "emoji_reference_bloons.json",
+          "type": "File",
+          "artifact": {
+            "size": 341,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_reference_bloons.json",
+            "MD5": "2b3c2850dc87a85b3b39923499d215e4",
+            "path": "figura/cache/resources/assets/figura/font/emoji_reference_bloons.json"
+          }
+        },
+        {
+          "id": "emoji_reference_logo.json",
+          "name": "emoji_reference_logo.json",
+          "type": "File",
+          "artifact": {
+            "size": 279,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_reference_logo.json",
+            "MD5": "b2daf0d3b60f6392c10c01e96d2181fd",
+            "path": "figura/cache/resources/assets/figura/font/emoji_reference_logo.json"
+          }
+        },
+        {
+          "id": "emoji_reference_retro.json",
+          "name": "emoji_reference_retro.json",
+          "type": "File",
+          "artifact": {
+            "size": 280,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_reference_retro.json",
+            "MD5": "c71689ffc507897a8cfda3979ae426d1",
+            "path": "figura/cache/resources/assets/figura/font/emoji_reference_retro.json"
+          }
+        },
+        {
+          "id": "emoji_symbol.json",
+          "name": "emoji_symbol.json",
+          "type": "File",
+          "artifact": {
+            "size": 691,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/font/emoji_symbol.json",
+            "MD5": "aaf5609588941f1960ba4bb54ef19ea1",
+            "path": "figura/cache/resources/assets/figura/font/emoji_symbol.json"
+          }
+        },
+        {
+          "id": "cs_cz.json",
+          "name": "cs_cz.json",
+          "type": "File",
+          "artifact": {
+            "size": 5094,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/cs_cz.json",
+            "MD5": "7f84aecaccf9d319fa906739713a03f7",
+            "path": "figura/cache/resources/assets/figura/lang/cs_cz.json"
+          }
+        },
+        {
+          "id": "de_de.json",
+          "name": "de_de.json",
+          "type": "File",
+          "artifact": {
+            "size": 55241,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/de_de.json",
+            "MD5": "2d5b16d935fc00c9cc14d25cdf4ef9cd",
+            "path": "figura/cache/resources/assets/figura/lang/de_de.json"
+          }
+        },
+        {
+          "id": "en_ca.json",
+          "name": "en_ca.json",
+          "type": "File",
+          "artifact": {
+            "size": 11519,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/en_ca.json",
+            "MD5": "87ba15a30c7df0052cd8a73217fafe38",
+            "path": "figura/cache/resources/assets/figura/lang/en_ca.json"
+          }
+        },
+        {
+          "id": "en_gb.json",
+          "name": "en_gb.json",
+          "type": "File",
+          "artifact": {
+            "size": 89346,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/en_gb.json",
+            "MD5": "8076c9f91b3a21576a3364c057c75495",
+            "path": "figura/cache/resources/assets/figura/lang/en_gb.json"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 199226,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/en_us.json",
+            "MD5": "79c2f61cac03c826c2d487768be62b52",
+            "path": "figura/cache/resources/assets/figura/lang/en_us.json"
+          }
+        },
+        {
+          "id": "es_es.json",
+          "name": "es_es.json",
+          "type": "File",
+          "artifact": {
+            "size": 62277,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/es_es.json",
+            "MD5": "ea58f87b5bb91c89549f6c9da44f9f29",
+            "path": "figura/cache/resources/assets/figura/lang/es_es.json"
+          }
+        },
+        {
+          "id": "et_ee.json",
+          "name": "et_ee.json",
+          "type": "File",
+          "artifact": {
+            "size": 16787,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/et_ee.json",
+            "MD5": "e0d13caf0e38c3b37625caaeca533a78",
+            "path": "figura/cache/resources/assets/figura/lang/et_ee.json"
+          }
+        },
+        {
+          "id": "fi_fi.json",
+          "name": "fi_fi.json",
+          "type": "File",
+          "artifact": {
+            "size": 30233,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/fi_fi.json",
+            "MD5": "b8429e7125096dce4444a34a73e0ceff",
+            "path": "figura/cache/resources/assets/figura/lang/fi_fi.json"
+          }
+        },
+        {
+          "id": "fr_ca.json",
+          "name": "fr_ca.json",
+          "type": "File",
+          "artifact": {
+            "size": 102143,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/fr_ca.json",
+            "MD5": "06ea5598e98f9767f0bea013281a7db9",
+            "path": "figura/cache/resources/assets/figura/lang/fr_ca.json"
+          }
+        },
+        {
+          "id": "fr_fr.json",
+          "name": "fr_fr.json",
+          "type": "File",
+          "artifact": {
+            "size": 194768,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/fr_fr.json",
+            "MD5": "42d3d3b25777a52a131af35a5b46e8fe",
+            "path": "figura/cache/resources/assets/figura/lang/fr_fr.json"
+          }
+        },
+        {
+          "id": "hu_hu.json",
+          "name": "hu_hu.json",
+          "type": "File",
+          "artifact": {
+            "size": 6095,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/hu_hu.json",
+            "MD5": "b1c0566e90f0ad287296773e8fb61d11",
+            "path": "figura/cache/resources/assets/figura/lang/hu_hu.json"
+          }
+        },
+        {
+          "id": "it_it.json",
+          "name": "it_it.json",
+          "type": "File",
+          "artifact": {
+            "size": 106681,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/it_it.json",
+            "MD5": "abf6fe97fb19d31a05eeadc33648ed18",
+            "path": "figura/cache/resources/assets/figura/lang/it_it.json"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
+          "type": "File",
+          "artifact": {
+            "size": 47871,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/ja_jp.json",
+            "MD5": "fc3acee2fffff4ccb4d1f3401b4509a1",
+            "path": "figura/cache/resources/assets/figura/lang/ja_jp.json"
+          }
+        },
+        {
+          "id": "ko_kr.json",
+          "name": "ko_kr.json",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/ko_kr.json",
+            "MD5": "42d043f844537c0d33abf6912a34f65d",
+            "path": "figura/cache/resources/assets/figura/lang/ko_kr.json"
+          }
+        },
+        {
+          "id": "lv_lv.json",
+          "name": "lv_lv.json",
+          "type": "File",
+          "artifact": {
+            "size": 65692,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/lv_lv.json",
+            "MD5": "d13534c37a1312b5901717929183c4c4",
+            "path": "figura/cache/resources/assets/figura/lang/lv_lv.json"
+          }
+        },
+        {
+          "id": "pl_pl.json",
+          "name": "pl_pl.json",
+          "type": "File",
+          "artifact": {
+            "size": 48358,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/pl_pl.json",
+            "MD5": "7388420460e0e8d239849cc994d7e65d",
+            "path": "figura/cache/resources/assets/figura/lang/pl_pl.json"
+          }
+        },
+        {
+          "id": "pt_br.json",
+          "name": "pt_br.json",
+          "type": "File",
+          "artifact": {
+            "size": 82540,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/pt_br.json",
+            "MD5": "ea7872b60bf2876a34c7a17980b20254",
+            "path": "figura/cache/resources/assets/figura/lang/pt_br.json"
+          }
+        },
+        {
+          "id": "ro_ro.json",
+          "name": "ro_ro.json",
+          "type": "File",
+          "artifact": {
+            "size": 193539,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/ro_ro.json",
+            "MD5": "29eb85ff3e1712591a536cb4bc35a028",
+            "path": "figura/cache/resources/assets/figura/lang/ro_ro.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 108307,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/ru_ru.json",
+            "MD5": "c5e883b971b0bea6c45ecd6a1ae2231a",
+            "path": "figura/cache/resources/assets/figura/lang/ru_ru.json"
+          }
+        },
+        {
+          "id": "tl_ph.json",
+          "name": "tl_ph.json",
+          "type": "File",
+          "artifact": {
+            "size": 12637,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/tl_ph.json",
+            "MD5": "3f6413db8a9ceb0565873e9074953c6d",
+            "path": "figura/cache/resources/assets/figura/lang/tl_ph.json"
+          }
+        },
+        {
+          "id": "uk_ua.json",
+          "name": "uk_ua.json",
+          "type": "File",
+          "artifact": {
+            "size": 268065,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/uk_ua.json",
+            "MD5": "f1d1b6dccc208e7566b47e71b6f6a95b",
+            "path": "figura/cache/resources/assets/figura/lang/uk_ua.json"
+          }
+        },
+        {
+          "id": "vi_vn.json",
+          "name": "vi_vn.json",
+          "type": "File",
+          "artifact": {
+            "size": 4408,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/vi_vn.json",
+            "MD5": "ad2b8bed2fd8c6eaadecd54670dc584c",
+            "path": "figura/cache/resources/assets/figura/lang/vi_vn.json"
+          }
+        },
+        {
+          "id": "zh_cn.json",
+          "name": "zh_cn.json",
+          "type": "File",
+          "artifact": {
+            "size": 18782,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/zh_cn.json",
+            "MD5": "4331ab53e661a4cead9ade3c240146f9",
+            "path": "figura/cache/resources/assets/figura/lang/zh_cn.json"
+          }
+        },
+        {
+          "id": "zh_tw.json",
+          "name": "zh_tw.json",
+          "type": "File",
+          "artifact": {
+            "size": 27,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/lang/zh_tw.json",
+            "MD5": "447c642138e4988989c8558dd86a80a7",
+            "path": "figura/cache/resources/assets/figura/lang/zh_tw.json"
+          }
+        },
+        {
+          "id": "animal.png",
+          "name": "animal.png",
+          "type": "File",
+          "artifact": {
+            "size": 1610,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/animal.png",
+            "MD5": "17e82762578936b0f304c54c7669e6d8",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/animal.png"
+          }
+        },
+        {
+          "id": "animated.png",
+          "name": "animated.png",
+          "type": "File",
+          "artifact": {
+            "size": 2604,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/animated.png",
+            "MD5": "ed6aa4795d12c938a8c22cbede315d09",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/animated.png"
+          }
+        },
+        {
+          "id": "face_angry.png",
+          "name": "face_angry.png",
+          "type": "File",
+          "artifact": {
+            "size": 665,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_angry.png",
+            "MD5": "c8f020c7cffe609bfeea34c24474dfcd",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_angry.png"
+          }
+        },
+        {
+          "id": "face_biba.png",
+          "name": "face_biba.png",
+          "type": "File",
+          "artifact": {
+            "size": 1321,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_biba.png",
+            "MD5": "9667c0d2b7e30f38a2d6f123aef948ef",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_biba.png"
+          }
+        },
+        {
+          "id": "face_fear.png",
+          "name": "face_fear.png",
+          "type": "File",
+          "artifact": {
+            "size": 810,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_fear.png",
+            "MD5": "c8e0fdf8c0cbbe76c73a0c6b46893345",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_fear.png"
+          }
+        },
+        {
+          "id": "face_happy.png",
+          "name": "face_happy.png",
+          "type": "File",
+          "artifact": {
+            "size": 1754,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_happy.png",
+            "MD5": "887f3fd0d4ccbd0ba56f96a4960a5227",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_happy.png"
+          }
+        },
+        {
+          "id": "face_misc.png",
+          "name": "face_misc.png",
+          "type": "File",
+          "artifact": {
+            "size": 1759,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_misc.png",
+            "MD5": "bfedcb0126260cb95ce64d8c48994c80",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_misc.png"
+          }
+        },
+        {
+          "id": "face_nervous.png",
+          "name": "face_nervous.png",
+          "type": "File",
+          "artifact": {
+            "size": 1843,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_nervous.png",
+            "MD5": "57a5e9f197c775b3c15d74b6fa89fe5d",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_nervous.png"
+          }
+        },
+        {
+          "id": "face_sad.png",
+          "name": "face_sad.png",
+          "type": "File",
+          "artifact": {
+            "size": 1451,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_sad.png",
+            "MD5": "6db6a45a6b4959baea1f45e92f98f2b7",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_sad.png"
+          }
+        },
+        {
+          "id": "face_silly.png",
+          "name": "face_silly.png",
+          "type": "File",
+          "artifact": {
+            "size": 359,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/face_silly.png",
+            "MD5": "de6470372b4861a3451bd62a82339459",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/face_silly.png"
+          }
+        },
+        {
+          "id": "flag_a-d.png",
+          "name": "flag_a-d.png",
+          "type": "File",
+          "artifact": {
+            "size": 3808,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/flag_a-d.png",
+            "MD5": "a82e12789814beef4f421092f6c71f60",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/flag_a-d.png"
+          }
+        },
+        {
+          "id": "flag_e-k.png",
+          "name": "flag_e-k.png",
+          "type": "File",
+          "artifact": {
+            "size": 4211,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/flag_e-k.png",
+            "MD5": "f11e5f218e40b16095b49026e1321225",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/flag_e-k.png"
+          }
+        },
+        {
+          "id": "flag_l-q.png",
+          "name": "flag_l-q.png",
+          "type": "File",
+          "artifact": {
+            "size": 3838,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/flag_l-q.png",
+            "MD5": "eeb0682098fc2f1e5ed6efc38bf36ce7",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/flag_l-q.png"
+          }
+        },
+        {
+          "id": "flag_r-z.png",
+          "name": "flag_r-z.png",
+          "type": "File",
+          "artifact": {
+            "size": 3727,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/flag_r-z.png",
+            "MD5": "e1f0ce755504b5a4d6071f1934955e02",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/flag_r-z.png"
+          }
+        },
+        {
+          "id": "food.png",
+          "name": "food.png",
+          "type": "File",
+          "artifact": {
+            "size": 3129,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/food.png",
+            "MD5": "4dc7aa1b2df09b57c56fa4faa25d71f7",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/food.png"
+          }
+        },
+        {
+          "id": "gesture.png",
+          "name": "gesture.png",
+          "type": "File",
+          "artifact": {
+            "size": 1245,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/gesture.png",
+            "MD5": "8021d5c604b14038e176e072776d6464",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/gesture.png"
+          }
+        },
+        {
+          "id": "heart.png",
+          "name": "heart.png",
+          "type": "File",
+          "artifact": {
+            "size": 1696,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/heart.png",
+            "MD5": "d6bb0f21329437dfbe61795c3d15a8fb",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/heart.png"
+          }
+        },
+        {
+          "id": "letters.png",
+          "name": "letters.png",
+          "type": "File",
+          "artifact": {
+            "size": 950,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/letters.png",
+            "MD5": "cfe3371f6d7566458a456d69b57c5bea",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/letters.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 2951,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/logo.png",
+            "MD5": "cd57f9832c6fd87638c6468dc9e5f34b",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/logo.png"
+          }
+        },
+        {
+          "id": "meme.png",
+          "name": "meme.png",
+          "type": "File",
+          "artifact": {
+            "size": 1150,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/meme.png",
+            "MD5": "54bdf69dba2f4e1e7a06c7aca9b76c84",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/meme.png"
+          }
+        },
+        {
+          "id": "misc.png",
+          "name": "misc.png",
+          "type": "File",
+          "artifact": {
+            "size": 878,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/misc.png",
+            "MD5": "1d1b7d42c2545c3d7c6a20b4cc17d923",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/misc.png"
+          }
+        },
+        {
+          "id": "nature.png",
+          "name": "nature.png",
+          "type": "File",
+          "artifact": {
+            "size": 2570,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/nature.png",
+            "MD5": "0161b6c8b2b086d19bed4d2eb1f55f08",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/nature.png"
+          }
+        },
+        {
+          "id": "object.png",
+          "name": "object.png",
+          "type": "File",
+          "artifact": {
+            "size": 5320,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/object.png",
+            "MD5": "c72555b7c34364bc09f954ddc64395e1",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/object.png"
+          }
+        },
+        {
+          "id": "portrait.png",
+          "name": "portrait.png",
+          "type": "File",
+          "artifact": {
+            "size": 4534,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/portrait.png",
+            "MD5": "995e019926321b39e4a65d1fd0b5ba94",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/portrait.png"
+          }
+        },
+        {
+          "id": "pride.png",
+          "name": "pride.png",
+          "type": "File",
+          "artifact": {
+            "size": 2158,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/pride.png",
+            "MD5": "c33e4aae117240c6e8357fc155a49a9d",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/pride.png"
+          }
+        },
+        {
+          "id": "reference.png",
+          "name": "reference.png",
+          "type": "File",
+          "artifact": {
+            "size": 5904,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/reference.png",
+            "MD5": "21a38705833fb300a7f9f58a6a269599",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/reference.png"
+          }
+        },
+        {
+          "id": "reference_bloons.png",
+          "name": "reference_bloons.png",
+          "type": "File",
+          "artifact": {
+            "size": 3402,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/reference_bloons.png",
+            "MD5": "c3556bc329f534cc45596441a5b8c32a",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/reference_bloons.png"
+          }
+        },
+        {
+          "id": "reference_logo.png",
+          "name": "reference_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1540,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/reference_logo.png",
+            "MD5": "ff96280f7e64a17a51a386881d06e8bb",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/reference_logo.png"
+          }
+        },
+        {
+          "id": "reference_retro.png",
+          "name": "reference_retro.png",
+          "type": "File",
+          "artifact": {
+            "size": 1190,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/reference_retro.png",
+            "MD5": "633da1aa6a5adcce8e44fc4105a8f040",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/reference_retro.png"
+          }
+        },
+        {
+          "id": "symbol.png",
+          "name": "symbol.png",
+          "type": "File",
+          "artifact": {
+            "size": 5928,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/assets/figura/textures/font/emojis/symbol.png",
+            "MD5": "39b37ab3694034e86a4d961956988fcf",
+            "path": "figura/cache/resources/assets/figura/textures/font/emojis/symbol.png"
+          }
+        },
+        {
+          "id": "hashes.json",
+          "name": "hashes.json",
+          "type": "File",
+          "artifact": {
+            "size": 10660,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/resources/hashes.json",
+            "MD5": "59820c6683ba2debc9de506e00f76854",
+            "path": "figura/cache/resources/hashes.json"
+          }
+        },
+        {
+          "id": "settings.nbt",
+          "name": "settings.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 70,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/figura/cache/settings.nbt",
+            "MD5": "77ab1d828d7b61d224a172b3f04e67c1",
+            "path": "figura/cache/settings.nbt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4289,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "profile.json",
+          "name": "profile.json",
+          "type": "File",
+          "artifact": {
+            "size": 237813,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/profile.json",
+            "MD5": "17a7d89b136b1425508f4553c27d345c",
+            "path": "profile.json"
+          }
+        },
+        {
+          "id": "IronveilRP-Title.zip",
+          "name": "IronveilRP-Title.zip",
+          "type": "File",
+          "artifact": {
+            "size": 75986,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/resourcepacks/IronveilRP-Title.zip",
+            "path": "resourcepacks/IronveilRP-Title.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 7123,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "usercache.json",
+          "name": "usercache.json",
+          "type": "File",
+          "artifact": {
+            "size": 217,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/usercache.json",
+            "MD5": "bac1194c83dcea7faaf8052c73b8d654",
+            "path": "usercache.json"
+          }
+        }
+      ]
+    }
+  ]
+}

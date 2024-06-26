@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	// Keybinding to open the Macro editing screen
+	"openMacroScreenKeybind": "key.keyboard.f10",
+	"macros": [
+		{
+			// Macro keybinding
+			"keyName": "key.keyboard.h",
+			// Key modifier
+			"keyModName": "key.keyboard.left.control",
+			// Command to execute
+			"command": "/halt",
+			// Type of Macro. Delayed, Repeating, RunNTimes, SingleUse, DisplayOnly
+			"macroType": "SingleUse"
+		}
+	]
+}

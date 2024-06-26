@@ -1,0 +1,38 @@
+{
+  "$schema": "file:///C:/Users/darwj1/Documents/Ironveil/Nebula/dist/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Ironveil RP (Minecraft 1.20.4)",
+    "description": "Ironveil RP on Minecraft 1.20.4",
+    "icon": "https://launcher.ironveilrp.com/icon.png",
+    "address": "play.ironveilrp.com",
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.10"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": [
+        "servers.dat",
+        "options.txt",
+        "cherishedworlds-favorites.dat",
+        "config/*.cfg",
+        "saves/*",
+        "config/**/*.yml",
+        "resourcepacks/*",
+        "shaderpacks/*",
+        "screenshots/*",
+        "datapacks/*"
+      ]
+    },
+    {
+      "appliesTo": ["fabricmods"],
+      "patterns": [
+        "optionalon/*.jar"
+      ]
+    }
+  ]
+}

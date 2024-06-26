@@ -1,0 +1,13 @@
+#Enable/Disable Server Entries overrides
+enabled = true
+#Internal Version Number. NO TOUCHY!
+version = 2
+#Server override entries
+[[entry]]
+    ip = "play.ironveilrp.com"
+    description = "Ironveil Roleplay"
+    state = "Unveil the mysteries of Narrantis."
+    largeImageKey = ["%servericon%"]
+    largeImageText = "https://www.ironveilrp.com"
+    smallImageKey = [""]
+    smallImageText = ""

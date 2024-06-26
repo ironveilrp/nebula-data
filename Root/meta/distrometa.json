@@ -1,0 +1,5 @@
+{
+    "$schema": "file:///${ROOT}/schemas/DistroMetaSchema.schema.json",
+    "meta": {
+    }
+  }
