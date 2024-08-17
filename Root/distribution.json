@@ -275,16 +275,6 @@
           }
         },
         {
-          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
-          "name": "Model Gap Fix",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 65430,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/modelfix-1.14-fabric.jar",
-            "MD5": "37022aa425061707b0ed1ada2c071d97"
-          }
-        },
-        {
           "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
           "name": "ModernFix",
           "type": "FabricMod",
@@ -325,16 +315,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:toastkiller:1.0@jar",
-          "name": "The Open Sauce Toast Killer",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 8038,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/OpenSauceToastKiller.jar",
-            "MD5": "5b9ff9c7969225e1fb3f372486c6add9"
-          }
-        },
-        {
           "id": "generated.fabricmod:placeholder-api:2.4.0-pre.1+1.20.4@jar",
           "name": "Placeholder API",
           "type": "FabricMod",
@@ -365,16 +345,6 @@
           }
         },
         {
-          "id": "smsk.smoothscroll:smoothscroll:2.1.2@jar",
-          "name": "Smooth Scroll",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 50456,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/smoothscroll-2.1.2-1.20.4.jar",
-            "MD5": "5a276d5b83f25b1def9cf6cbe1bac29f"
-          }
-        },
-        {
           "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
@@ -392,16 +362,6 @@
             "size": 949085,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
             "MD5": "d7753a50ca37f50abb10465a9a425dac"
-          }
-        },
-        {
-          "id": "generated.fabricmod:tooltipfix:1.1.1-1.20@jar",
-          "name": "ToolTip Fix",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 12432,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/fabricmods/required/tooltipfix-1.1.1-1.20.jar",
-            "MD5": "492430f451d89f7fe2d7b8410c9748ac"
           }
         },
         {
@@ -432,28 +392,6 @@
             "size": 53,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/cherishedworlds-favorites.dat",
             "path": "cherishedworlds-favorites.dat"
-          }
-        },
-        {
-          "id": "chatpatches.json",
-          "name": "chatpatches.json",
-          "type": "File",
-          "artifact": {
-            "size": 877,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/chatpatches.json",
-            "MD5": "006d1eae857e97e4013a0dcd8e0718d0",
-            "path": "config/chatpatches.json"
-          }
-        },
-        {
-          "id": "chat_heads.json5",
-          "name": "chat_heads.json5",
-          "type": "File",
-          "artifact": {
-            "size": 152,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/chat_heads.json5",
-            "MD5": "ff6e0dc634336299e0022cdd5fee1242",
-            "path": "config/chat_heads.json5"
           }
         },
         {
@@ -512,17 +450,6 @@
           }
         },
         {
-          "id": "entityculling.json",
-          "name": "entityculling.json",
-          "type": "File",
-          "artifact": {
-            "size": 871,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/entityculling.json",
-            "MD5": "1e9496e07565504b4be879fde4cb01bd",
-            "path": "config/entityculling.json"
-          }
-        },
-        {
           "id": "entity_model_features.json",
           "name": "entity_model_features.json",
           "type": "File",
@@ -545,6 +472,17 @@
           }
         },
         {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 871,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/entityculling.json",
+            "MD5": "1e9496e07565504b4be879fde4cb01bd",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
           "id": "etf_warnings.json",
           "name": "etf_warnings.json",
           "type": "File",
@@ -560,9 +498,9 @@
           "name": "indigo-renderer.properties",
           "type": "File",
           "artifact": {
-            "size": 291,
+            "size": 282,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/fabric/indigo-renderer.properties",
-            "MD5": "fd7065b76405be7092d0523045afb238",
+            "MD5": "487af0cd20aac19f6ae1abaa018d62f5",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -593,9 +531,9 @@
           "name": "indium-renderer.properties",
           "type": "File",
           "artifact": {
-            "size": 116,
+            "size": 112,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/indium-renderer.properties",
-            "MD5": "a066221c0d8ce0842698c22a026afbe3",
+            "MD5": "332a3a2001302cfbd2fcc894e2916c09",
             "path": "config/indium-renderer.properties"
           }
         },
@@ -604,9 +542,9 @@
           "name": "iris.properties",
           "type": "File",
           "artifact": {
-            "size": 289,
+            "size": 281,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/iris.properties",
-            "MD5": "28a1cedeb6f702cf26aec81bdcff2702",
+            "MD5": "5cf32a0e867f03f64d7a180958504c4b",
             "path": "config/iris.properties"
           }
         },
@@ -699,17 +637,6 @@
           }
         },
         {
-          "id": "smoothscroll.json",
-          "name": "smoothscroll.json",
-          "type": "File",
-          "artifact": {
-            "size": 362,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/smoothscroll.json",
-            "MD5": "7e40e8433eabc138d781c98fd4884118",
-            "path": "config/smoothscroll.json"
-          }
-        },
-        {
           "id": "sodium-extra-options.json",
           "name": "sodium-extra-options.json",
           "type": "File",
@@ -762,28 +689,6 @@
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/sodium-options.json",
             "MD5": "9d7a29d1191d1b715b379873037b9b75",
             "path": "config/sodium-options.json"
-          }
-        },
-        {
-          "id": "accounts.json",
-          "name": "accounts.json",
-          "type": "File",
-          "artifact": {
-            "size": 2,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/accounts.json",
-            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
-            "path": "config/viafabricplus/accounts.json"
-          }
-        },
-        {
-          "id": "settings.json",
-          "name": "settings.json",
-          "type": "File",
-          "artifact": {
-            "size": 2168,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/settings.json",
-            "MD5": "172f0936e0b19ee9ccfd649e5a68ccfc",
-            "path": "config/viafabricplus/settings.json"
           }
         },
         {
@@ -889,6 +794,28 @@
             "size": 7580,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/ViaLoader/viaversion.yml",
             "path": "config/viafabricplus/ViaLoader/viaversion.yml"
+          }
+        },
+        {
+          "id": "accounts.json",
+          "name": "accounts.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/accounts.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/viafabricplus/accounts.json"
+          }
+        },
+        {
+          "id": "settings.json",
+          "name": "settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 2168,
+            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/config/viafabricplus/settings.json",
+            "MD5": "172f0936e0b19ee9ccfd649e5a68ccfc",
+            "path": "config/viafabricplus/settings.json"
           }
         },
         {
@@ -2205,20 +2132,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 4289,
+            "size": 4136,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/options.txt",
             "path": "options.txt"
-          }
-        },
-        {
-          "id": "profile.json",
-          "name": "profile.json",
-          "type": "File",
-          "artifact": {
-            "size": 237813,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/profile.json",
-            "MD5": "17a7d89b136b1425508f4553c27d345c",
-            "path": "profile.json"
           }
         },
         {
@@ -2239,17 +2155,6 @@
             "size": 7123,
             "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/servers.dat",
             "path": "servers.dat"
-          }
-        },
-        {
-          "id": "usercache.json",
-          "name": "usercache.json",
-          "type": "File",
-          "artifact": {
-            "size": 217,
-            "url": "https://launcher.ironveilrp.com/servers/IronveilRP-1.20.4/files/usercache.json",
-            "MD5": "bac1194c83dcea7faaf8052c73b8d654",
-            "path": "usercache.json"
           }
         }
       ]
